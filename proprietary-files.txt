@@ -36,8 +36,6 @@ vendor/lib/rfsa/adsp/libdspCV_skel.so|a788855fe98d5f6ea73d2693c983efb29165eae1
 vendor/lib/rfsa/adsp/libfastcvadsp.so|603711dc1af1f1952d8978a5b494b1541b24c54c
 vendor/lib/rfsa/adsp/libfastcvadsp_skel.so|57eff075eaf7a9fb9260f6cf5b918b2e7495fc6f
 vendor/lib/rfsa/adsp/libhexagon_nn_skel.so|ec30ec22f831fc9d755f653d9ae336bcbbcd82bf
-vendor/lib/rfsa/adsp/libscveObjectSegmentation_skel.so|d2174a2a4a680e93ee4262b5e6d99fd3c398620c
-vendor/lib/rfsa/adsp/libscveT2T_skel.so|e8083e551a17e880acb9d72ceb725b762cadf0d2
 vendor/lib/rfsa/adsp/libvpp_svc_skel.so|2da97f61c1d14f1f9a38aecd8ab89a1f6fa8d991
 
 # ADSP Modules (AptX)
@@ -198,7 +196,7 @@ vendor/lib64/vendor.qti.latency@2.0.so|ab1775138a2bf0587cd6cc990a432e0ad7dc2379
 vendor/bin/ssgqmigd|5769f2aef8fdf48f55b01e3d7d3d1aecb860d7e1
 vendor/bin/ssgtzd|f2f473c1ecf4323bd206ea90c948c7d34ce287de
 vendor/etc/init/ssgtzd.rc|be60402995a8b6dcec3a726b83e7ae2de52017a6
-vendor/lib64/libminksocket.so|f361474f9e23bbd6322ef9094039884ecfde03aa
+vendor/lib64/libminksocket.so|75163021563b6bd6b3722ab5f11d8d82aa543b3a
 
 # Data - from LA.UM.9.12.r1-10800-SMxx50.0
 vendor/bin/ATFWD-daemon|548c3793b864c2e7b3fbe1db6ae12e84877974b2
@@ -724,6 +722,26 @@ vendor/bin/pd-mapper|25b0f683607ee50ed769e75fb499f70f58af9474
 vendor/lib64/libpdmapper.so|9c11a6b00893b0976e03dac79649942db178734d
 vendor/lib64/libpdnotifier.so|1f789b879a7ca8454283de6572af10fdecd9a077
 
+# SCVE - from LA.UM.10.2.1.r1-03400-sdm660.0
+vendor/lib/rfsa/adsp/libscveObjectSegmentation_skel.so|d2174a2a4a680e93ee4262b5e6d99fd3c398620c
+vendor/lib/rfsa/adsp/libscveT2T_skel.so|e8083e551a17e880acb9d72ceb725b762cadf0d2
+vendor/lib/libscveCommon.so|38c596b90b0e5f28ed3191db7dbd9af14e7d2ac5
+vendor/lib/libscveCommon_stub.so|0a7d0e7439b1f9bdfc55c8a9473b17044a924bfa
+vendor/lib/libscveObjectSegmentation.so|06f61f0c0da765924256b6e52583a6d2eb538ac5
+vendor/lib/libscveObjectSegmentation_stub.so|400aed1d65dcb81085e133ce252104f27331642d
+vendor/lib/libscveObjectTracker.so|fbba8eb2cfe1116b2669332e8b841b51d6d41ca4
+vendor/lib/libscveObjectTracker_stub.so|d35122035aa0ddb52dae408ed415d8db692a1c9d
+vendor/lib/vendor.qti.hardware.scve.objecttracker@1.0.so|30891d8df43826096c919fdaf8e5619483c150bc
+vendor/lib/vendor.qti.hardware.scve.panorama@1.0.so|39442969fc36d0013051ff6022a32c737a042f70
+vendor/lib64/libscveCommon.so|1603e11f268390739f9d0297ab0b8e84886becab
+vendor/lib64/libscveCommon_stub.so|bcf566f120b795ef6fe85450298475b56e7c9659
+vendor/lib64/libscveObjectSegmentation.so|1598ad3797897eb3331a545c74d937c0ae0aeddf
+vendor/lib64/libscveObjectSegmentation_stub.so|f5d9974c11db8921d8e5d6528c8c39719cec0569
+vendor/lib64/libscveObjectTracker.so|7df26ae466c70db7bbc72b1d242c1f3f983b668e
+vendor/lib64/libscveObjectTracker_stub.so|6f45aa215de07dfeacf811c06af750206bb1cf58
+vendor/lib64/vendor.qti.hardware.scve.objecttracker@1.0.so|f8d978ce0958c8dac3418115decf4703095ea6f4
+vendor/lib64/vendor.qti.hardware.scve.panorama@1.0.so|45b81be0ba767fd5c06c89e6705006ac815fe957
+
 # Sensors - from S62Pro RKQ1.210406.002
 -system_ext/framework/vendor.qti.hardware.sensorscalibrate-V1.0-java.jar|01d8f70b5687082dd9d19beca565a789d404837c
 system_ext/lib/vendor.qti.hardware.sensorscalibrate@1.0.so|5ce25016e9dc0330ac1fdf2a27c87149026181f9
@@ -994,6 +1012,12 @@ vendor/bin/time_daemon|48401d7f85c87aa3e12ce7b4a969a50cbf59c293
 vendor/etc/init/init.time_daemon.rc|b253ca2a498757e14e1d7a051bf504ae09218f51
 -vendor/lib/libtime_genoff.so|9d0ed7481f38fa59b02e9d62a29cd1dd64ca06b6
 -vendor/lib64/libtime_genoff.so|8bb116ad297a5e4a94da2f10509509cb6e863a5f
+
+# Universal Bandwidth Compression (UBWC) - from S62Pro RKQ1.210406.002
+vendor/lib/libUBWC.so|7269f5e1c914d36f995517c55632a6ae18229a9a
+vendor/lib/libstreamparser.so|3dacaede7656beaca862b995b88d3d8b40f50116
+vendor/lib64/libUBWC.so|0da520fc45ca290fc66d1878149b63e7e41ad0a3
+vendor/lib64/libstreamparser.so|c4ee3b6372c38d9384779fd1eedf9d796d65fa70
 
 # SMC Invoke - from LA.UM.9.12.r1-10800-SMxx50.0
 vendor/etc/ssg/ta_config.json|e18554b038da3737b7352d1271e5fde9c789c9df
