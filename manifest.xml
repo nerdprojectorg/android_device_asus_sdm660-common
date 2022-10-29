@@ -59,7 +59,7 @@ IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
     <hal format="hidl">
         <name>vendor.display.color</name>
         <transport>hwbinder</transport>
-        <fqname>@1.0::IDisplayColor/default</fqname>
+        <fqname>@1.2::IDisplayColor/default</fqname>
     </hal>
     <hal format="hidl">
         <name>vendor.display.postproc</name>
