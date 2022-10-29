@@ -185,6 +185,7 @@ vendor/lib64/vendor.qti.latency@2.0.so|ab1775138a2bf0587cd6cc990a432e0ad7dc2379
 vendor/bin/ssgqmigd|5769f2aef8fdf48f55b01e3d7d3d1aecb860d7e1
 vendor/bin/ssgtzd|f2f473c1ecf4323bd206ea90c948c7d34ce287de
 vendor/etc/init/ssgtzd.rc|be60402995a8b6dcec3a726b83e7ae2de52017a6
+vendor/lib64/libminksocket.so|f361474f9e23bbd6322ef9094039884ecfde03aa
 
 # Data - from LA.UM.9.12.r1-10800-SMxx50.0
 vendor/bin/ATFWD-daemon|548c3793b864c2e7b3fbe1db6ae12e84877974b2
@@ -310,6 +311,7 @@ vendor/lib64/hw/android.hardware.gatekeeper@1.0-impl-qti.so
 # GNSS - from LA.UM.9.12.r1-10800-SMxx50.0
 vendor/bin/loc_launcher|684028ffab3ef293a241386710fe5855d2b2f70a
 vendor/bin/lowi-server|3a73a45ec1fd888ef2761834b10953da68d91bf4
+vendor/bin/mlid|f161135c43cfcc68f25759459048ead4d8f16087
 vendor/bin/slim_daemon|46cc6ab22c7111f472fc9c9ec4d410f8c9f99cdc
 vendor/bin/xtra-daemon|7b624afda8be6bd9b8bc72114aa2edd3d7b727cd
 vendor/bin/xtwifi-client|d9f39eca7e1a8ba67d6ad31c8283c4131315f5c2
@@ -518,11 +520,12 @@ vendor/bin/pm-service|d41dabf5e4830f93b267d668d37e72aedae48163
 vendor/lib64/libperipheral_client.so|18796ea27c31bd39946f23f2b4173bafd26d9216
 
 # QCC VND HAL - from LA.UM.9.12.r1-10800-SMxx50.0
-vendor/bin/hw/vendor.qti.hardware.qccvndhal@1.0-service|7fc59359c94e5977cb549e4f9d56062bb9ecbc84
+vendor/bin/hw/vendor.qti.hardware.qccvndhal@1.0-service|b49b4964ca1b391921b05d0350479bae517a75ae
 vendor/etc/init/vendor.qti.hardware.qccvndhal@1.0-service.rc|afeb332a4750a11587658fcc9a75a27f63bbccdd
-vendor/lib64/hw/vendor.qti.hardware.qccvndhal@1.0-impl.so|760fe89c7d1faf5bfd3907c3cdfe830de85e8ba3
-vendor/lib64/vendor.qti.hardware.qccvndhal@1.0-halimpl.so|db925aebfbee9403124547a26bab1f1e13f4fdb5
-vendor/lib64/vendor.qti.hardware.qccvndhal@1.0.so|a776faac4fee084176b3c1f6f677521f04b8040c
+vendor/lib64/hw/vendor.qti.hardware.qccvndhal@1.0-impl.so|29dd375362065b3a1655ca0e2d0031450790bcd6
+vendor/lib64/vendor.qti.hardware.qccsyshal@1.0.so|8f1bd782c728fc275b8e78785a4866414d8c1cd8
+vendor/lib64/vendor.qti.hardware.qccvndhal@1.0-halimpl.so|0f98bfd30c23b561caf8a472cceea5baa58abf67
+vendor/lib64/vendor.qti.hardware.qccvndhal@1.0.so|154868a579a9d30c86fe5f8aaaa254aaab07c58d
 
 # QCRIL - from LA.UM.9.12.r1-10800-SMxx50.0
 vendor/bin/hw/qcrild|ad8316e9f0f42e67f9ee9d4bcc7943c5bc9a0087
