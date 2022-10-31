@@ -141,6 +141,7 @@ PRODUCT_PACKAGES += \
     hwcomposer.sdm660 \
     memtrack.sdm660 \
     libdisplayconfig \
+    libtinyxml \
     libqdMetaData \
     libqdMetaData.system \
     libvulkan
@@ -150,6 +151,7 @@ PRODUCT_PACKAGES += \
     android.hardware.graphics.mapper@3.0-impl-qti-display \
     android.hardware.graphics.mapper@4.0-impl-qti-display \
     vendor.qti.hardware.display.allocator-service \
+    vendor.qti.hardware.display.mapper@2.0.vendor \
     android.hardware.memtrack@1.0-impl \
     vendor.display.config@2.0 \
     vendor.display.config@1.0.vendor \

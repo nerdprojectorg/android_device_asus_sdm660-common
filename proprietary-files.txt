@@ -441,10 +441,6 @@ vendor/lib64/libtinyxml2_1.so|ff32deb110acb02cb5def5f3404f9064c1276483
 vendor/lib/hw/vulkan.adreno.so|139868cf11006199fffc109b7a207e4e7f4cbd18
 vendor/lib64/hw/vulkan.adreno.so|9215100009b574f71dc75272f22a499302ea121d
 
-# Graphics - from S62Pro RKQ1.210406.002
-vendor/lib/libtinyxml.so|16853d57ef82d59b48506857fc80b149ba3b3543
-vendor/lib64/libtinyxml.so|da9f11e9edc92bb6d5e8f64f4fbbaf8019b8587a
-
 # IRQ balance - from LA.UM.8.2.r1-06700-sdm660.0
 vendor/bin/msm_irqbalance|0e967f5c7eaf8d863a50996459101be47adf96a2
 
