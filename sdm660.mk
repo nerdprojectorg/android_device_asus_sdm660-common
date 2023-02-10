@@ -26,7 +26,6 @@ PRODUCT_PACKAGES += \
     android.hardware.audio.common@6.0-util \
     android.hardware.audio.effect@6.0 \
     android.hardware.audio.effect@6.0-impl \
-    android.hardware.audio.effect@2.0-service \
     android.hardware.audio.effect@4.0-service \
     android.hardware.audio.service \
     android.hardware.audio@5.0 \
@@ -123,10 +122,6 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PRODUCT_PROPERTIES += \
     ro.charger.enable_suspend=true
 
-# CNE
-PRODUCT_PACKAGES += \
-    libcnefeatureconfig
-
 # Display
 PRODUCT_PACKAGES += \
     gralloc.sdm660 \
@@ -189,8 +184,6 @@ PRODUCT_PACKAGES += \
     libbatching \
     libgeofencing \
     libgnss \
-    libgnsspps \
-    libsynergy_loc_api \
     libgps.utils \
     liblocation_api \
     libsensorndkbridge \
@@ -275,7 +268,6 @@ PRODUCT_PACKAGES += \
 
 # Media
 PRODUCT_PACKAGES += \
-    android.hardware.media.omx@1.0-impl \
     libavservices_minijail \
     libavservices_minijail.vendor
 
