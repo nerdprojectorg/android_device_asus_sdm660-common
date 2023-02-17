@@ -661,13 +661,11 @@ vendor/lib64/vendor.qti.hardware.scve.panorama@1.0.so|cf6b6d647f98448f234f5d115c
 
 # Sensors
 vendor/bin/sensors.qti
-vendor/lib/hw/activity_recognition.sdm660.so
 vendor/lib/hw/sensors.sdm660_64.so
 vendor/lib/libsensor1.so
 vendor/lib/libsensor_reg.so
 vendor/lib/sensors.native.so
 vendor/lib/sensors.ssc.so
-vendor/lib64/hw/activity_recognition.sdm660.so
 vendor/lib64/hw/sensors.sdm660_64.so
 vendor/lib64/libsensor1.so
 vendor/lib64/libsensor_reg.so
