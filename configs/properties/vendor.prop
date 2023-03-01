@@ -215,10 +215,13 @@ ro.sf.force_light_brightness=1
 # UBWC
 vendor.video.disable.ubwc=1
 
+# USB
+persist.vendor.usb.config=diag,serial_cdev,rmnet,adb
+
 # Zram-writeback
 ro.zram.mark_idle_delay_mins=60
 ro.zram.first_wb_delay_mins=180
 ro.zram.periodic_wb_delay_hours=24
 
-# USB
-persist.vendor.usb.config=diag,serial_cdev,rmnet,adb
+# Zygote
+zygote.critical_window.minute=10
