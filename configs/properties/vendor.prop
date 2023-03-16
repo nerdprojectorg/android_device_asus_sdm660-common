@@ -219,10 +219,5 @@ vendor.video.disable.ubwc=1
 # USB
 persist.vendor.usb.config=diag,serial_cdev,rmnet,adb
 
-# Zram-writeback
-ro.zram.mark_idle_delay_mins=60
-ro.zram.first_wb_delay_mins=180
-ro.zram.periodic_wb_delay_hours=24
-
 # Zygote
 zygote.critical_window.minute=10
