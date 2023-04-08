@@ -191,18 +191,27 @@ PRODUCT_PACKAGES += \
 # GPS
 PRODUCT_PACKAGES += \
     android.hardware.gnss@2.1-impl-qti \
-    android.hardware.gnss@2.1-service-qti
-
-PRODUCT_PACKAGES += \
+    android.hardware.gnss@2.1-service-qti \
+    android.hardware.gnss@1.1.vendor \
+    android.hardware.gnss@2.1.vendor \
     libbatching \
     libgeofencing \
     libgnss \
-    liblocation_api
+    libgnsspps \
+    libsynergy_loc_api \
+    libgps.utils \
+    liblocation_api \
+    libsensorndkbridge \
+    libwifi-hal-ctrl
 
 PRODUCT_PACKAGES += \
-    flp.conf \
-    gnss_antenna_info.conf \
+    apdr.conf \
     gps.conf \
+    gnss_antenna_info.conf \
+    flp.conf \
+    izat.conf \
+    lowi.conf \
+    sap.conf \
     xtwifi.conf
 
 # Health
