@@ -9,7 +9,6 @@ Chipset | Qualcomm Snapdragon 636/660, SDM636, SDM660
 GPU     | Adreno 509/512
 Storage | 32GB/64GB
 RAM     | 3GB/4GB/6GB
-Android | 11(R)-Further
 Kernel  | 4.19.xxx
 
 ## Note
@@ -27,7 +26,7 @@ Depends On: [Device Settings Resources](https://github.com/LineageOS/android_pac
 
 ```
 #
-# Copyright (C) 2021 The dotOS Project
+# Copyright (C) 2021 The LineageOS Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
