@@ -28,7 +28,7 @@
 import /vendor/etc/init/hw/init.qcom.usb.rc
 import /vendor/etc/init/hw/init.target.rc
 import /vendor/etc/init/hw/init.qcom.asus.rc
-import /vendor/etc/init/hw/init.device.rc
+import /vendor/etc/init/hw/init.sdm660.rc
 import /vendor/etc/init/android.hardware.audio.service.rc
 import /vendor/etc/init/init.time_daemon.rc
 

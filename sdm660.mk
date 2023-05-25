@@ -1,6 +1,4 @@
 #
-# Copyright (C) 2020 The LineageOS Project
-#
 # SPDX-License-Identifier: Apache-2.0
 #
 
@@ -221,10 +219,10 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     init.class_main.sh \
     init.qcom.post_boot.sh \
-    init.qti.dcvs.sh \
     init.qcom.sensors.sh \
     init.qcom.sh \
-    init.qcom.usb.sh
+    init.qcom.usb.sh \
+    init.qti.dcvs.sh
 
 PRODUCT_PACKAGES += \
     fstab.qcom \
@@ -232,6 +230,7 @@ PRODUCT_PACKAGES += \
     init.qcom.rc \
     init.qcom.usb.rc \
     init.recovery.qcom.rc \
+    init.sdm660.rc
     init.target.rc \
     ueventd.qcom.rc
     
@@ -330,11 +329,16 @@ PRODUCT_PACKAGES += \
     android.hardware.media.c2@1.0.vendor
 
 # Overlays
-DEVICE_PACKAGE_OVERLAYS += \
-    $(LOCAL_PATH)/overlay
+PRODUCT_PACKAGES += \
+    SDM660CarrierConfigRes \
+    SDM660CellBroadcastReceiverRes \
+    SDM660FrameworksRes \
+    SDM660SettingsRes \
+    SDM660SystemUIRes \
+    SDM660TelephonyRes \
+    SDM660TetheringConfigOverlay \
+    SDM660WifiOverlay
 
-PRODUCT_ENFORCE_RRO_TARGETS := *
-    
 # Permissions
 PRODUCT_COPY_FILES += \
     frameworks/native/data/etc/android.hardware.audio.low_latency.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.audio.low_latency.xml \
@@ -506,9 +510,7 @@ PRODUCT_PACKAGES += \
     hostapd_cli \
     libwifi-hal-qcom \
     libwpa_client \
-    TetheringConfigOverlay \
     wificond \
-    WifiOverlay \
     wpa_supplicant \
     wpa_supplicant.conf
 
